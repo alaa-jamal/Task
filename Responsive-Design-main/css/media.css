@@ -1,0 +1,129 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 600px) {
+
+  
+    .container{
+        flex-direction: column;
+    }
+    .site-logo-bg {
+        display: none;   
+    }
+
+    .nav {
+        border-top:1px solid gray;
+        position:relative;
+        flex-direction: row;   
+    }
+
+    .nav-link{
+        border-top:none;
+    }
+    .nav-link-hyper-main {
+       
+        font-size: 1.2rem;
+    }
+    .site-logo-title {
+        /* position: absolute; */
+        /* left: 164px;*/
+        top: 283px; 
+        text-align: center;
+    }
+
+    .header-title {
+       
+        text-align: center;
+        font-size: 2.8rem;
+    }
+
+    .grid-content-tile {
+        width: 40%;
+    }
+    .grid-content-tile-subtext {
+        font-size: 1.8rem;
+    }
+    .grid-content-tile-maintext {
+        font-size: 2.8rem;
+        line-height: 0.4; 
+        margin-bottom: 8px;  
+    }
+   
+}
+
+@media (min-width: 1800px) {
+    .container{
+        flex-direction: column;
+       }
+    
+       
+        .top {
+            
+            flex-direction: row;
+            
+        }
+    
+        .site-logo {
+            width: 70rem;
+          
+        }
+    
+        .nav {
+          
+            flex-direction: row;
+            align-items: flex-start;
+            margin: 3.4rem;
+           
+    }
+         .nav-link {
+       
+        border-top: none;
+        
+    }
+    
+    .header {
+        width: 42%;
+        
+    }
+    
+    .grid-content {
+        width: 40%;
+       
+    }
+    
+    .grid-content-tile {
+        width: 12%;
+       
+    }
+}
+
+
+.top {
+    width: 28%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.site-logo {
+    width: 25rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* margin: 0 auto; */
+}
+
+.header {
+    width: 98%;
+    padding-top: 10rem;
+    display: block;
+    margin: 0 auto;
+    color: #2d2d2d;
+}
